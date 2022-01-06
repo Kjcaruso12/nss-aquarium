@@ -1,0 +1,58 @@
+.header {
+    text-align: center;
+    border: 2px solid black;
+    font-weight: bold;
+    margin: 0px 10em 2em 10em;
+}
+
+.fish_list {
+    border: 2px solid black;
+    width: 800px;
+    height: 350px;
+}
+
+h2 {
+    border: 1px solid black;
+    margin: 10px;
+    width: 780px;
+    display: flex;
+    justify-content: center;
+}
+
+.fish_properties {
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.fish_pics {
+    float: left;
+    padding-right: 200px;
+    width: 100px;
+}
+
+.location_tips {
+    border: 1px solid black;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+}
+
+.travel_tips {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+ }
+
+ .locations {
+
+ }
+
+ .aside {
+    border: 1px solid black;
+ }                                                                                                                             
+
+ .cleaning_tips {
+
+ }
+
