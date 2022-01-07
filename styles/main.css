@@ -32,7 +32,6 @@ h2 {
 }
 
 .location_tips {
-    border: 1px solid black;
     display: flex;
     justify-content: right;
     flex-direction: column;
