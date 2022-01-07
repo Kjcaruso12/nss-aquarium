@@ -2,26 +2,32 @@ body {
     background-color: #008B8B;
 }
 
+.body_layout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .header {
     text-align: center;
     border: 2px solid black;
     font-weight: bold;
-    margin: 20px 10em 2em 10em;
+    color: white;
+    margin: 0px 0px 20px 0px;
+    padding: 40px 0px 40px 0px;
+    background-image: url("https://www.blueplanetaquarium.com/wp-content/uploads/2020/10/iStock-533721889-1024x683.jpg");
 }
 
 .fish_collection {
     border: 2px solid black;
     width: 800px;
     height: 800px;
-    float: left;
-    width: 40%;
     margin-right: 20px;
 }
 
 h2 {
     border: 1px solid black;
+    color: white;
     margin: 10px;
-    width: 740px;
     display: flex;
     justify-content: center;
 }
@@ -34,7 +40,7 @@ h2 {
 
 .fish_block {
     border: 1px solid black;
-    height: 350px;
+    height: 340px;
     margin: 10px 10px 10px 10px;
     padding-left: 10px;
     padding-top: 10px;
@@ -43,15 +49,17 @@ h2 {
 }
 
 .fish_properties {
-    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
 }
 
 .fish_pics {
-    float: left;
-    padding-right: 250px;
+    padding-right: 50px;
     margin-bottom: 10px;
     width:200px;
-    height: 250px;
+    height: 330px;
 }
 
 .location_tips {
@@ -59,9 +67,8 @@ h2 {
     display: flex;
     justify-content: right;
     flex-direction: column;
-    float: left;
-    width: 40%;
     height: 800px;
+    width: 750px;
     margin-right: 20px;
 }
 
@@ -85,13 +92,12 @@ h2 {
 
  .aside {
     border: 1px solid black;
-    float: left;
-    width: 15%;
     height: 800px;
+    width: 280px;
  }   
  
  .martins_tips {
-     width: 250px;
+    
  }
 
  .cleaning_tips {
