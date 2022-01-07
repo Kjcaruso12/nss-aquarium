@@ -11,7 +11,7 @@ body {
     text-align: center;
     border: 2px solid black;
     font-weight: bold;
-    color: white;
+    color: black;
     margin: 0px 0px 20px 0px;
     padding: 40px 0px 40px 0px;
     background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_134/f_auto,q_auto,w_1100/v1633552438/shape/mentalfloss/651042-gettyimages-1326020302.jpg");
@@ -40,7 +40,7 @@ h2 {
     background-color: black;
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
+    justify-content: space-between;
 }
 
 .fish_block {
