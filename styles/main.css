@@ -1,57 +1,107 @@
+body {
+    background-color: #008B8B;
+}
+
 .header {
     text-align: center;
     border: 2px solid black;
     font-weight: bold;
-    margin: 0px 10em 2em 10em;
+    margin: 20px 10em 2em 10em;
 }
 
-.fish_list {
+.fish_collection {
     border: 2px solid black;
     width: 800px;
-    height: 350px;
+    height: 800px;
+    float: left;
+    width: 40%;
+    margin-right: 20px;
 }
 
 h2 {
     border: 1px solid black;
     margin: 10px;
-    width: 780px;
+    width: 740px;
     display: flex;
     justify-content: center;
 }
 
-.fish_properties {
-    display: inline-flex;
-    justify-content: flex-end;
+.fish_blocks {
+    display: flex;
     flex-direction: column;
+    justify-content: stretch;
+}
+
+.fish_block {
+    border: 1px solid black;
+    height: 350px;
+    margin: 10px 10px 10px 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: stretch;
+}
+
+.fish_properties {
+    float: left;
 }
 
 .fish_pics {
     float: left;
-    padding-right: 200px;
-    width: 100px;
+    padding-right: 250px;
+    margin-bottom: 10px;
+    width:200px;
+    height: 250px;
 }
 
 .location_tips {
+    border: 2px solid black;
     display: flex;
     justify-content: right;
     flex-direction: column;
+    float: left;
+    width: 40%;
+    height: 800px;
+    margin-right: 20px;
 }
 
 .travel_tips {
+    float: left;
+    height: 300px;
     display: flex;
-    justify-content: flex-end;
     flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
  }
 
  .locations {
+     float: left;
+     height: 300px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
 
  }
 
  .aside {
     border: 1px solid black;
- }                                                                                                                             
+    float: left;
+    width: 15%;
+    height: 800px;
+ }   
+ 
+ .martins_tips {
+     width: 250px;
+ }
 
  .cleaning_tips {
+     float: left;
+     height: 600px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     padding-bottom: 20px;
+
 
  }
 
