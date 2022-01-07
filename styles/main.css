@@ -1,5 +1,5 @@
 body {
-    background-color: #008B8B;
+    background-color: #FFFAF0;
 }
 
 .body_layout {
@@ -18,6 +18,7 @@ body {
 }
 
 .fish_collection {
+    background-color: #008B8B;
     border: 2px solid black;
     width: 800px;
     height: 800px;
@@ -25,8 +26,9 @@ body {
 }
 
 h2 {
-    border: 1px solid black;
+    border: 2px solid black;
     color: white;
+    background-color: #DAA520;
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -49,6 +51,8 @@ h2 {
 }
 
 .fish_properties {
+    font-size: larger;
+    font-style: italic;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -63,6 +67,7 @@ h2 {
 }
 
 .location_tips {
+    background-color: #008B8B;
     border: 2px solid black;
     display: flex;
     justify-content: right;
@@ -73,6 +78,8 @@ h2 {
 }
 
 .travel_tips {
+    font-size: larger;
+    font-style: italic;
     float: left;
     height: 300px;
     display: flex;
@@ -82,6 +89,8 @@ h2 {
  }
 
  .locations {
+    font-size: larger;
+    font-style: italic;
      float: left;
      height: 300px;
      display: flex;
@@ -91,16 +100,19 @@ h2 {
  }
 
  .aside {
-    border: 1px solid black;
+    display: flex;
+    flex-grow: 1;
+    background-color: #008B8B;
+    border: 2px solid black;
     height: 800px;
-    width: 280px;
- }   
- 
+ }
+
  .martins_tips {
-    
  }
 
  .cleaning_tips {
+    font-size: larger;
+    font-style: italic;
      float: left;
      height: 600px;
      display: flex;
