@@ -2,11 +2,6 @@ body {
     background-color: #ADD8E6;
 }
 
-.body_layout {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .header {
     text-align: center;
     border: 2px solid black;
@@ -16,6 +11,11 @@ body {
     padding: 40px 0px 40px 0px;
     background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_134/f_auto,q_auto,w_1100/v1633552438/shape/mentalfloss/651042-gettyimages-1326020302.jpg");
     background-size: cover;
+}
+
+.body_layout {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .fish_collection {
@@ -31,19 +31,18 @@ h2 {
     color: white;
     background-color: #DAA520;
     box-shadow: 5px 10px black;
-    margin: 10px;
+    margin: 10px 10px 20px 10px;
     display: flex;
     justify-content: center;
 }
 
-.fish_blocks {
-    background-color: black;
+.fish_list {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.fish_block {
+.fish_card {
     background-color: #008B8B;
     border: 1px solid black;
     height: 215px;
@@ -51,7 +50,11 @@ h2 {
     padding-left: 10px;
     padding-top: 10px;
     display: flex;
-    justify-content: stretch;
+}
+
+.fish__image {
+    height: 200px;
+    width: 300px;
 }
 
 .fish_properties {
@@ -59,16 +62,10 @@ h2 {
     font-style: italic;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    padding-bottom: 20px;
+    align-content: space-evenly;
+    margin-left: 50px;
 }
 
-.fish_pics {
-    padding-right: 50px;
-    margin-bottom: 10px;
-    width: 240px;
-    height: 200px;
-}
 
 .location_tips {
     background-color: #008B8B;
@@ -92,42 +89,42 @@ h2 {
     padding-bottom: 20px;
     margin-left: 10px;
     
- }
+}
 
- .locations {
+.locations {
     font-size: larger;
     font-style: italic;
-     float: left;
-     height: 300px;
-     display: flex;
-     flex-direction: column;
-     justify-content: space-evenly;
-     margin-left: 10px;
+    float: left;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10px;
 
- }
+}
 
- .aside {
+.aside {
     display: flex;
     flex-grow: 1;
     background-color: #008B8B;
     border: 2px solid black;
     height: 800px;
- }
+}
 
- .martins_tips {
-     width: 285px;
- }
+.martins_tips {
+    width: 285px;
+}
 
- .cleaning_tips {
+.cleaning_tips {
     font-size: larger;
     font-style: italic;
-     float: left;
-     height: 600px;
-     display: flex;
-     flex-direction: column;
-     justify-content: space-evenly;
-     padding-bottom: 20px;
+    float: left;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
 
 
- }
+}
 
