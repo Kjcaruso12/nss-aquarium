@@ -15,15 +15,16 @@ body {
 
 .body_layout {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-grow: 1;
 }
 
 .fish_collection {
     background-color: black;
     border: 2px solid black;
-    width: 800px;
+    width: 38%;
     height: 800px;
-    margin-right: 20px;
 }
 
 h2 {
@@ -39,7 +40,6 @@ h2 {
 .fish_list {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
 }
 
 .fish_card {
@@ -74,8 +74,7 @@ h2 {
     justify-content: right;
     flex-direction: column;
     height: 800px;
-    width: 750px;
-    margin-right: 20px;
+    width: 38%;
 }
 
 .travel_tips {
@@ -103,27 +102,27 @@ h2 {
 
 }
 
-.aside {
+.aside {  
     display: flex;
-    flex-grow: 1;
+    width: 20%;
     background-color: #008B8B;
     border: 2px solid black;
     height: 800px;
 }
 
 .martins_tips {
-    width: 285px;
+    display: flex;
 }
 
 .cleaning_tips {
     font-size: larger;
     font-style: italic;
-    float: left;
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding-bottom: 20px;
+    margin-right: 10px;
 
 
 }
